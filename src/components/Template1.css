@@ -1,0 +1,129 @@
+/* Scoped styles for Template 1 */
+
+/* Main container styling */
+#resume-template-1 .resume-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    max-width: 210mm; /* Width of A4 page */
+    margin: auto;
+    background-color: #000000; /* Light background for better contrast */
+    
+}
+#resume-template-1 .resume-header {
+    text-align: center; /* Center-align the header content */
+}
+#resume-template-1 .resume-header .contact-info {
+    display: flex;
+    justify-content: center; /* Center the contact info */
+    align-items: center;
+    gap: 30px; /* Increased space between each contact info item */
+    font-size: 14px; /* Uniform font size */
+    color: #010101;
+    margin-top: 10px;
+    flex-wrap: nowrap; /* Prevent wrapping to keep all items in a single line */
+    text-align: center; /* Center align text */
+}
+
+/* Ensure contact details stay in one line */
+#resume-template-1 .resume-header .contact-info p {
+    margin: 0; /* Remove margin from p */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between contact info items */
+    flex-wrap: nowrap; /* Prevent wrapping to keep in one line */
+}
+
+#resume-template-1 .resume-header .contact-info span {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add spacing between icons/text and the content */
+}
+
+/* Ensure anchor tags for Gmail, LinkedIn, GitHub are styled similarly */
+#resume-template-1 .resume-header .contact-info a {
+    text-decoration: underline;
+    color: #A52A2A; /* Brown color for Gmail, LinkedIn, GitHub links */
+    word-break: break-word; /* Allows breaking long URLs if necessary */
+}
+
+#resume-template-1 .resume-header h1 {
+    font-size: 28px; /* Larger font size for name */
+    margin: 0;
+    color: #333;
+}
+
+/* Removed Divider Styling */
+/* No horizontal rules (HR lines) are used */
+
+/* Section styling */
+#resume-template-1 .resume-section {
+    margin-bottom: 30px; /* Increased margin for better separation between sections */
+}
+
+#resume-template-1 .resume-section h2 {
+    font-size: 22px; /* Larger font size for section headings */
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#resume-template-1 .resume-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#resume-template-1 .resume-section ul li {
+    margin-bottom: 15px; /* Increased margin for list items */
+}
+
+/* Table styling */
+#resume-template-1 .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#resume-template-1 .table-container th, #resume-template-1 .table-container td {
+    border: 1px solid #010101;
+    padding: 8px;
+    text-align: left;
+}
+
+#resume-template-1 .table-container th {
+    background-color: #000000;
+}
+
+/* Button styling */
+#resume-template-1 .pdf-download-button {
+    display: block;
+    margin: 30px auto; /* More space above and below the button */
+    padding: 12px 25px; /* Increased padding for better clickability */
+    font-size: 18px; /* Larger font size for the button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#resume-template-1 .pdf-download-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Achievements section styling */
+#resume-template-1 .achievements-section p {
+    font-size: 16px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Space below achievements */
+}
+
+#resume-template-1 hr {
+    border: 0;
+    height: 1px;
+    background-color: #333; /* Darker color for better visibility */
+    margin: 10px 0; /* Space around the HR line */
+}

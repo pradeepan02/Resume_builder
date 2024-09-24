@@ -1,0 +1,103 @@
+/* Scoped styles for Template 2 */
+
+/* Main container styling */
+#resume-template-6 .resume-container {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    max-width: 210mm; /* Width of A4 page */
+    margin: auto;
+    background-color: #ffffff; /* White background for a clean look */
+}
+
+/* Header styling */
+#resume-template-6 .resume-header {
+    text-align: center;
+    margin-bottom: 20px; /* Space below header */
+}
+
+#resume-template-6 .resume-header h1 {
+    font-size: 30px; /* Larger font size for name */
+    margin: 0;
+    color: #003F90; /* Primary color */
+}
+
+#resume-template-6 .resume-header .contact-info {
+    font-size: 14px; /* Slightly larger font size for contact info */
+    color: #555;
+    margin-top: 5px;
+}
+
+#resume-template-6 .resume-header .contact-info a {
+    text-decoration: none;
+    color: #003F90; /* Primary color */
+}
+
+#resume-template-6 .resume-header .contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+#resume-template-6 .resume-section {
+    margin-bottom: 30px; /* Increased margin for better separation between sections */
+}
+
+#resume-template-6 .resume-section h2 {
+    font-size: 24px; /* Larger font size for section headings */
+    border-bottom: 2px solid #003F90; /* Underline for section headings */
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    color: #003F90; /* Primary color */
+}
+
+#resume-template-6 .resume-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#resume-template-6 .resume-section ul li {
+    margin-bottom: 15px; /* Increased margin for list items */
+}
+
+/* Table styling */
+#resume-template-6 .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#resume-template-6 .table-container th, #resume-template-6 .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#resume-template-6 .table-container th {
+    background-color: #f2f2f2;
+}
+
+/* Button styling */
+#resume-template-6 .pdf-download-button {
+    display: block;
+    margin: 30px auto; /* More space above and below the button */
+    padding: 12px 25px; /* Increased padding for better clickability */
+    font-size: 18px; /* Larger font size for the button */
+    background-color: #003F90; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#resume-template-6 .pdf-download-button:hover {
+    background-color: #002C6B; /* Darker shade of primary color on hover */
+}
+
+/* Achievements section styling */
+#resume-template-6 .achievements-section p {
+    font-size: 16px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Space below achievements */
+}
